@@ -15,7 +15,6 @@
 		A6E3ED58C34DB9905F28B7D571C1F000 /* Pods-HYSwiftSignalKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07308E61A842094D805951BD9AD44E /* Pods-HYSwiftSignalKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEC899422D3C491C0D069EFB6FC7CDE9 /* Pods-HYSwiftSignalKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 681C1CE9AB3979A3D9F42F29EC8B2DEE /* Pods-HYSwiftSignalKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3C824E3122288FA6A9B6FB89EE4F4F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		D42782EEF0CC032165C235B8E74EAC76 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3162C1D990DC2837DD066AA55DB3F384 /* ReplaceMe.m */; };
 		F25E0417756FEFBB6A1B98C0F8F3AA80 /* Pods-HYSwiftSignalKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6028CB3F5E8B7EE67474F87218FD2D /* Pods-HYSwiftSignalKit_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -44,31 +43,30 @@
 		0B9479A8AB186A73D7698738BE6501C9 /* Pods-HYSwiftSignalKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYSwiftSignalKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0C46A1DF70CF3ACFC84F6C13E7C923D8 /* HYSwiftSignalKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HYSwiftSignalKit-Info.plist"; sourceTree = "<group>"; };
 		113271DE062D368E58C6A927ED8CE42D /* HYSwiftSignalKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYSwiftSignalKit-umbrella.h"; sourceTree = "<group>"; };
-		16B0227F8AA758541FDF6E9C3D8F9451 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		16B0227F8AA758541FDF6E9C3D8F9451 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1B6028CB3F5E8B7EE67474F87218FD2D /* Pods-HYSwiftSignalKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYSwiftSignalKit_Example-dummy.m"; sourceTree = "<group>"; };
 		2A22CE04CD72D1867F6300AA19464BF9 /* Pods-HYSwiftSignalKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYSwiftSignalKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		2CF57DE7676F21539FB39F6D47BFCE40 /* Pods-HYSwiftSignalKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYSwiftSignalKit_Example.modulemap"; sourceTree = "<group>"; };
-		3162C1D990DC2837DD066AA55DB3F384 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HYSwiftSignalKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43C83DE62C058B6C82255599A1887F0A /* Pods-HYSwiftSignalKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYSwiftSignalKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4D86B639BE745C3646347C72CF464A1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4D86B639BE745C3646347C72CF464A1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		681C1CE9AB3979A3D9F42F29EC8B2DEE /* Pods-HYSwiftSignalKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYSwiftSignalKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		6A47D90F6436CC9E52ABABA78A2697DD /* Pods-HYSwiftSignalKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYSwiftSignalKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		6F07308E61A842094D805951BD9AD44E /* Pods-HYSwiftSignalKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYSwiftSignalKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7630221160DCE50D26B7AAF8F9C96B92 /* Pods-HYSwiftSignalKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYSwiftSignalKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8486530EFBF0C17A85FF3905C0E9D5E0 /* HYSwiftSignalKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYSwiftSignalKit.debug.xcconfig; sourceTree = "<group>"; };
 		85004587012C881BEB624E1E9266B74E /* Pods-HYSwiftSignalKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYSwiftSignalKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E8FA8E7008E71E6511B4729BF606F6F /* HYSwiftSignalKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYSwiftSignalKit.release.xcconfig; sourceTree = "<group>"; };
-		A7D4A0E9ECE07E2A9D544CC957971842 /* HYSwiftSignalKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYSwiftSignalKit; path = HYSwiftSignalKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C242F46D7EC5215360BDB37461C2275E /* Pods-HYSwiftSignalKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HYSwiftSignalKit_Tests"; path = Pods_HYSwiftSignalKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC6EE7AFCCC6D7316383028AAA11F94F /* HYSwiftSignalKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HYSwiftSignalKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7D4A0E9ECE07E2A9D544CC957971842 /* HYSwiftSignalKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYSwiftSignalKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C242F46D7EC5215360BDB37461C2275E /* Pods_HYSwiftSignalKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYSwiftSignalKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6EE7AFCCC6D7316383028AAA11F94F /* HYSwiftSignalKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HYSwiftSignalKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D4B79A8910FFDB6356C997E14B4F0632 /* Pods-HYSwiftSignalKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYSwiftSignalKit_Tests.modulemap"; sourceTree = "<group>"; };
 		DB1A305F71D3FD5BA2081C4CE48E5CDE /* Pods-HYSwiftSignalKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYSwiftSignalKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F14A773E9FACA8C0EFCBA9496638A5F6 /* Pods-HYSwiftSignalKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYSwiftSignalKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F27C72682B762618F52F247E62680255 /* HYSwiftSignalKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYSwiftSignalKit-prefix.pch"; sourceTree = "<group>"; };
 		F7339D6B76DC5937B3771041D92F7A4A /* Pods-HYSwiftSignalKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYSwiftSignalKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FA6B0E99B6220B60B222A9E00375EB75 /* Pods-HYSwiftSignalKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HYSwiftSignalKit_Example"; path = Pods_HYSwiftSignalKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6B0E99B6220B60B222A9E00375EB75 /* Pods_HYSwiftSignalKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYSwiftSignalKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD8146990FF0C932C8B7CBED858D72B /* Pods-HYSwiftSignalKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYSwiftSignalKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,9 +128,9 @@
 		988CB808430C5D8DE8968209F52BDB92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7D4A0E9ECE07E2A9D544CC957971842 /* HYSwiftSignalKit */,
-				FA6B0E99B6220B60B222A9E00375EB75 /* Pods-HYSwiftSignalKit_Example */,
-				C242F46D7EC5215360BDB37461C2275E /* Pods-HYSwiftSignalKit_Tests */,
+				A7D4A0E9ECE07E2A9D544CC957971842 /* HYSwiftSignalKit.framework */,
+				FA6B0E99B6220B60B222A9E00375EB75 /* Pods_HYSwiftSignalKit_Example.framework */,
+				C242F46D7EC5215360BDB37461C2275E /* Pods_HYSwiftSignalKit_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,7 +213,6 @@
 		F9584B6B088739DD5EBF843A1CEA3B80 /* HYSwiftSignalKit */ = {
 			isa = PBXGroup;
 			children = (
-				3162C1D990DC2837DD066AA55DB3F384 /* ReplaceMe.m */,
 				44E129CB80EBC1EDDEAEB74957523056 /* Pod */,
 				C51BC95CDB47FE1E75A4AB2FE6B52374 /* Support Files */,
 			);
@@ -268,7 +265,7 @@
 			);
 			name = HYSwiftSignalKit;
 			productName = HYSwiftSignalKit;
-			productReference = A7D4A0E9ECE07E2A9D544CC957971842 /* HYSwiftSignalKit */;
+			productReference = A7D4A0E9ECE07E2A9D544CC957971842 /* HYSwiftSignalKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5294FA29FD820049F9402F0C6CBA8487 /* Pods-HYSwiftSignalKit_Tests */ = {
@@ -287,7 +284,7 @@
 			);
 			name = "Pods-HYSwiftSignalKit_Tests";
 			productName = Pods_HYSwiftSignalKit_Tests;
-			productReference = C242F46D7EC5215360BDB37461C2275E /* Pods-HYSwiftSignalKit_Tests */;
+			productReference = C242F46D7EC5215360BDB37461C2275E /* Pods_HYSwiftSignalKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		75C3DCC747904F412740E3BF0E690D4C /* Pods-HYSwiftSignalKit_Example */ = {
@@ -306,7 +303,7 @@
 			);
 			name = "Pods-HYSwiftSignalKit_Example";
 			productName = Pods_HYSwiftSignalKit_Example;
-			productReference = FA6B0E99B6220B60B222A9E00375EB75 /* Pods-HYSwiftSignalKit_Example */;
+			productReference = FA6B0E99B6220B60B222A9E00375EB75 /* Pods_HYSwiftSignalKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,8 +324,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 988CB808430C5D8DE8968209F52BDB92 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -370,7 +365,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF82D77AA2186FAAD894F9CCC70CC92 /* HYSwiftSignalKit-dummy.m in Sources */,
-				D42782EEF0CC032165C235B8E74EAC76 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,8 +528,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
