@@ -1,0 +1,16 @@
+PODS:
+  - HYSwiftSignalKit (0.1.0)
+
+DEPENDENCIES:
+  - HYSwiftSignalKit (from `../`)
+
+EXTERNAL SOURCES:
+  HYSwiftSignalKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYSwiftSignalKit: 732e1db315801afc09dc6591bd9185a207313006
+
+PODFILE CHECKSUM: dce7d0b8c076d6b2af5f37be3e14af97dfea2020
+
+COCOAPODS: 1.16.2
