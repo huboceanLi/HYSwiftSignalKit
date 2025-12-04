@@ -1,5 +1,5 @@
 PODS:
-  - HYSwiftSignalKit (0.1.0)
+  - HYSwiftSignalKit (0.1.1)
 
 DEPENDENCIES:
   - HYSwiftSignalKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HYSwiftSignalKit: 732e1db315801afc09dc6591bd9185a207313006
+  HYSwiftSignalKit: c118c911c10a56eac08197a654cd63b244abbb20
 
 PODFILE CHECKSUM: dce7d0b8c076d6b2af5f37be3e14af97dfea2020
 
